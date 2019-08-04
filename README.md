@@ -1,6 +1,6 @@
 # Frontend Interview Questions
 
-Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the Master the JavaScript Interview series by [Eric Elliot](https://medium.com/@_ericelliott).
+Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the _Master the JavaScript Interview_ series and [_10 Interview Questions Every JavaScript Developer Should Know_](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95) by [Eric Elliot](https://medium.com/@_ericelliott).
 Practical Javascript training tasks can be found [here](https://github.com/anszu/javascript-training).
 
 ## General
@@ -12,6 +12,26 @@ _insert answer here_
 2. What is the DOM?  
 _insert answer here_     
 [Full article to answer question.](https://bitsofco.de/what-exactly-is-the-dom/)
+
+3. What are the pros and cons of monolithic vs microservice architectures?  
+_insert answer here_  
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+4. What is asynchronous programming, and why is it important in JavaScript?  
+_insert answer here_  
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+5. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
+_insert answer here_  
+[Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
+
+6. What is REST, and why do people use it?  
+_insert answer here_  
+[Full article to answer question.](https://www.codecademy.com/articles/what-is-rest)
+
+7. How does DNS Lookup work?  
+_insert answer here_  
+[Full article to answer question.](https://royal.pingdom.com/a-visual-explanation-of-how-dns-lookups-work/)
 
 ## Javascript
 
@@ -47,23 +67,25 @@ _insert answer here_
 _insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
-9. What is a Promise?  
+9. What are the pros and cons of functional programming vs object-oriented programming?  
+_insert answer here_  
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+
+10. What is a Promise?  
 _insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
-## Technical
-
-1. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
+11. Can you name two programming paradigms important for JavaScript app developers?  
 _insert answer here_  
-[Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-2. What is REST, and why do people use it?  
+12. What does “favor object composition over class inheritance” mean?  
 _insert answer here_  
-[Full article to answer question.](https://www.codecademy.com/articles/what-is-rest)
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-3. How does DNS Lookup work?  
+13. What are two-way data binding and one-way data flow, and how are they different?  
 _insert answer here_  
-[Full article to answer question.](https://royal.pingdom.com/a-visual-explanation-of-how-dns-lookups-work/)
+[Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 ## React
 
@@ -102,7 +124,6 @@ _insert answer here_
 8. What is the difference between component composition and component inheritance and which one should be prefered?  
 _insert answer here_  
 [Full article to answer question.](https://reactjs.org/docs/composition-vs-inheritance.html)
-
 
 ## Others
 
