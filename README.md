@@ -1,26 +1,34 @@
 # Frontend Interview Questions
 
-Common question for Frontend Interviews (most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer))) and the Master the JavaScript Interview series by [Eric Elliot](https://medium.com/@_ericelliott).
+Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the Master the JavaScript Interview series by [Eric Elliot](https://medium.com/@_ericelliott).
 Practical Javascript training tasks can be found [here](https://github.com/anszu/javascript-training).
 
 ## General
 1. What is Big O notation, and why is it useful?  
-_insert answer here_
-
+_insert answer here_  
 [full article](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
-2. What is the DOM?
-_insert answer here_
+2. What is the DOM?  
+_insert answer here_     
 [full article](https://bitsofco.de/what-exactly-is-the-dom/)
 
 ## Javascript
-1. What is the event loop?
+1. What is the event loop?  
+_insert answer here_  
 [full article](https://flaviocopes.com/javascript-event-loop/)
-2. What is a closure?
+
+2. What is a closure?  
+_insert answer here_  
 [full article](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
-3. How does prototypal inheritance work, and how is it different from classical inheritance?
+
+3. How does prototypal inheritance work, and how is it different from classical inheritance?  
+_insert answer here_ 
 [full article](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
-4. How does this work?
+
+4. How does this work?  
+_insert answer here_ 
+[full article](https://medium.com/quick-code/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
+
 5. What is event bubbling and how does it work?
 6. What is Function Composition?
 [full article](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0)
