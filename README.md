@@ -24,31 +24,31 @@ _insert answer here_
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 
 3. How does prototypal inheritance work, and how is it different from classical inheritance?  
-_insert answer here_ 
+_insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
 
 4. How does this work?  
-_insert answer here_  
+_insert answer here_   
 [Full article to answer question.](https://medium.com/quick-code/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
 
 5. What is event bubbling and how does it work?  
-_insert answer here_  
+_insert answer here_   
 [Full article to answer question.](https://javascript.info/bubbling-and-capturing)
 
 6. What is Function Composition?  
-_insert answer here_
+_insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0)
 
 7. What ist a Pure Function?  
-_insert answer here_ 
+_insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
 8. What is Functional Programming?  
-_insert answer here_
+_insert answer here_ 
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
 9. What is a Promise?  
-_insert answer here_ 
+_insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
 ## Technical
