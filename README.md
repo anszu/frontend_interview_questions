@@ -112,6 +112,6 @@ _insert answer here_
 
 ## Further reading on interviews
 
-[Soft Skills](https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466) 
+[Soft Skills](https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466)   
 [Star Interview Method](https://www.themuse.com/advice/star-interview-method)
 
