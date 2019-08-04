@@ -44,7 +44,7 @@ _insert answer here_
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
 8. What is Functional Programming?  
-_insert answer here_ 
+_insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
 9. What is a Promise?  
@@ -53,10 +53,16 @@ _insert answer here_
 
 ## Technical
 
-1. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)
-2. What is REST, and why do people use it?
+1. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
+_insert answer here_
+[Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
+
+2. What is REST, and why do people use it?  
+_insert answer here_  
 [Full article to answer question.](https://www.codecademy.com/articles/what-is-rest)
-3. How does DNS Lookup work?
+
+3. How does DNS Lookup work?  
+_insert answer here_  
 [Full article to answer question.](https://royal.pingdom.com/a-visual-explanation-of-how-dns-lookups-work/)
 
 ## React
@@ -72,7 +78,8 @@ _insert answer here_
 
 ## Others
 
-1. What do you know about Machine Learning?
+1. What do you know about Machine Learning?  
+_insert answer here_  
 [Full article to answer question.](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0)
 
 ## Further reading on interviews
