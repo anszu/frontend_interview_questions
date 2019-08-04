@@ -54,7 +54,7 @@ _insert answer here_
 ## Technical
 
 1. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
-_insert answer here_
+_insert answer here_  
 [Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
 
 2. What is REST, and why do people use it?  
@@ -67,14 +67,42 @@ _insert answer here_
 
 ## React
 
-1. What are React Hooks and why are the useful?
-2. Explain the Rendering Prop pattern.
-3. Explain the HOC pattern.
-4. What is a pure compoment?
-5. What is a functional component?
-6. Explain JSX attribute spreading.
-7. How do you render content conditionally in JSX?
-(https://reactpatterns.com/)
+1. What are React Hooks and why are the useful?  
+_insert answer here_  
+[Full article to answer question.](https://reactjs.org/docs/hooks-intro.html)
+
+2. Explain the Rendering Prop pattern.  
+_insert answer here_  
+[Full article to answer question.](https://reactjs.org/docs/render-props.html)
+
+3. Explain the HOC pattern.  
+_insert answer here_  
+[Full article to answer question.](https://reactjs.org/docs/higher-order-components.html)
+
+4. What is a pure compoment?  
+_insert answer here_  
+[Full article to answer question.](https://medium.com/front-end-weekly/using-a-purecomponent-in-reacts-262972f9f1e0)
+
+5. When should you use a functional component and when a class component?  
+_insert answer here_  
+[Full article to answer question.](https://programmingwithmosh.com/react/react-functional-components/)
+
+6. What is the difference between a presentational and a container component?  
+_insert answer here_  
+[Full article to answer question.](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+
+6. Explain JSX attribute spreading.  
+_insert answer here_  
+[Full article to answer question.](https://codeburst.io/react-anti-pattern-jsx-spread-attributes-59d1dd53677f)
+
+7. How do you render content conditionally in JSX?  
+_insert answer here_  
+[Full article to answer question.](https://reactjs.org/docs/conditional-rendering.html)
+
+8. What is the difference between component composition and component inheritance and which one should be prefered?  
+_insert answer here_  
+[Full article to answer question.](https://reactjs.org/docs/composition-vs-inheritance.html)
+
 
 ## Others
 
