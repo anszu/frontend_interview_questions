@@ -25,7 +25,7 @@ Describe a few ways to communicate between a server and a client. Describe how a
 [full article](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
 Further reading:
-[Soft Skills](https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466
+[Soft Skills](https://medium.com/javascript-scene/master-the-javascript-interview-soft-skills-a8a5fb02c466)
 [Machine Learning](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0)
 [Star Interview Method](https://www.themuse.com/advice/star-interview-method)
 
