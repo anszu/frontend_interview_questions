@@ -4,10 +4,13 @@ Common question for Frontend Interviews (most by Boris Cherny found [here](https
 Practical Javascript training tasks can be found [here](https://github.com/anszu/javascript-training).
 
 ## General
-1. What is Big O notation, and why is it useful?
+1. What is Big O notation, and why is it useful?  
+_insert answer here_
+
 [full article](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
 2. What is the DOM?
+_insert answer here_
 [full article](https://bitsofco.de/what-exactly-is-the-dom/)
 
 ## Javascript
