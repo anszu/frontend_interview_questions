@@ -48,11 +48,11 @@ _insert answer here_
 
 ## Javascript
 
-1. What is the event loop?  
-_ - Call Stack: JavaScript has a single call stack (array-like data structure that can only add items to the back and only remove the last item) in which it keeps track of what function we’re currently executing and what function is to be executed after that. When a function is about to be executed it is added on the call stack. Then if that function calls another function — the other function will be on top of the first one in the call stack._ 
-_ - Event Table & Event Queue: All async operations are added to the Event Table (data structure that knows what function should be triggered after what event). It’s sole purpose is to keep track of events and send them to the Event Queue. The Event Queue is a data structure similar to the stack — again you add items to the back but can only remove them from the front._
-_ - The Event Loop: Constantly running process that checks if the call stack is empty. If it is empty it looks into the Event Queue. If there is something in the event queue that is waiting it is moved to the call stack. If not, then nothing happens.
-_ - Short: Process responsible for moving events into the call stack to be executed. 
+1. What is the event loop?    
+- _Call Stack: JavaScript has a single call stack (array-like data structure that can only add items to the back and only remove the last item) in which it keeps track of what function we’re currently executing and what function is to be executed after that. When a function is about to be executed it is added on the call stack. Then if that function calls another function — the other function will be on top of the first one in the call stack._ 
+- _Event Table & Event Queue: All async operations are added to the Event Table (data structure that knows what function should be triggered after what event). It’s sole purpose is to keep track of events and send them to the Event Queue. The Event Queue is a data structure similar to the stack — again you add items to the back but can only remove them from the front._
+- _The Event Loop: Constantly running process that checks if the call stack is empty. If it is empty it looks into the Event Queue. If there is something in the event queue that is waiting it is moved to the call stack. If not, then nothing happens._
+- _Short: Process responsible for moving events into the call stack to be executed._ 
 
 [Full article to answer question.](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
 
