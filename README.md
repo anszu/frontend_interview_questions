@@ -5,20 +5,26 @@ Practical Javascript training tasks can be found [here](https://github.com/anszu
 
 ## General
 
-1. What is Big O notation, and why is it useful?  
-_insert answer here_  
+1. What is Big O notation?  
+_A method to describe the performance or complexity of an algorithm._    
 [Full article to answer question.](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
 2. What is the DOM?  
-_insert answer here_     
+_The Document Object Model is an object based hierarchical model of a pages HTML structure. The DOM is represented by a node tree that can be used by eg. Javascript programms for reading or modifications._     
 [Full article to answer question.](https://bitsofco.de/what-exactly-is-the-dom/)
 
 3. What are the pros and cons of monolithic vs microservice architectures?  
-_insert answer here_  
+_Monolith = one unit of code with tight coupling between the components_      
+_Microservice = several independent components not relying on each other_    
+_Pro Monolith: easy to hook up components to cross-cutting concerns like logging or security featueres_      
+_Con Monolith: scaling and maintainance is hard due to tight coupling, harder to understand_    
+_Pro Microservice: easy to scale and maintain, easier to understand_    
+_Con Mircoservice: possible code duplication, problem of how to implement shared logic, often harder to set up_    
+_Result: in the long-run Microservices are usually the better choice._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 4. What is asynchronous programming, and why is it important in JavaScript?  
-_insert answer here_  
+_An event loop is listening for operations, which when requested don't block the rest of the code. User interfaces are asynchronous by nature waiting for user inputs to fire an event handler._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 5. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
