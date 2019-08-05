@@ -6,25 +6,32 @@ Practical Javascript training tasks can be found [here](https://github.com/anszu
 ## General
 
 ### 1. What is Big O notation?  
-_A method to describe the performance or complexity of an algorithm._    
+_A method to describe the performance or complexity of an algorithm._ 
+
 [Full article to answer question.](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
 ### 2. What is the DOM?  
-_The Document Object Model is an object based hierarchical model of a pages HTML structure. The DOM is represented by a node tree that can be used by eg. Javascript programms for reading or modifications._     
+_The Document Object Model is an object based hierarchical model of a pages HTML structure. The DOM is represented by a node tree that can be used by eg. Javascript programms for reading or modifications._
+
 [Full article to answer question.](https://bitsofco.de/what-exactly-is-the-dom/)
 
 ### 3. What are the pros and cons of monolithic vs microservice architectures?  
 _Monolith = one unit of code with tight coupling between the components_      
-_Microservice = several independent components not relying on each other_    
+_Microservice = several independent components not relying on each other_  
+
 _Pro Monolith: easy to hook up components to cross-cutting concerns like logging or security featueres_      
 _Con Monolith: scaling and maintainance is hard due to tight coupling, harder to understand_    
+
 _Pro Microservice: easy to scale and maintain, easier to understand_    
-_Con Mircoservice: possible code duplication, problem of how to implement shared logic, often harder to set up_    
+_Con Mircoservice: possible code duplication, problem of how to implement shared logic, often harder to set up_ 
+
 _Result: in the long-run Microservices are usually the better choice._  
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 ### 4. What is asynchronous programming, and why is it important in JavaScript?  
-_An event loop is listening for operations, which when requested don't block the rest of the code. User interfaces are asynchronous by nature waiting for user inputs to fire an event handler._  
+_An event loop is listening for operations, which when requested don't block the rest of the code. User interfaces are asynchronous by nature waiting for user inputs to fire an event handler._ 
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 5. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
@@ -60,6 +67,7 @@ _Prototypal Inheritance:_
 - _Instances are typically instantiated via factory functions (function that return an object), object literals (comma-separated list of name-value pairs wrapped in curly braces), `[Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)` or inheriting features directly from one object to another by copying the source objects properties (Concatenative inheritance) with [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (formely done eg. by jQueries $.extend())_  
 
 _In JavaScript, prototypal inheritance is simpler & more flexible than class inheritance._  
+
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
 
 4. How does this work?  
@@ -76,6 +84,7 @@ _insert answer here_
 
 ### 7. What ist a Pure Function?  
 _A function given the same input, will always return the same output and produces no side effects_  
+
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
 ### 8. What is Functional Programming?  
@@ -84,6 +93,7 @@ _Programming paradigma that:_
 - _avoid side-effects_
 - _simple function composition (eg. f(g(x)))_  
 - _in React the principle is supported by HOCs and Rendering Props_
+
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
 9. What are the pros and cons of functional programming vs object-oriented programming?  
@@ -94,12 +104,14 @@ _insert answer here_
 _insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
-11. Can you name two programming paradigms important for JavaScript app developers?  
-_Functional Programming and Object Oriented Programming._  
+### 11. Can you name two programming paradigms important for JavaScript app developers?  
+_[Functional Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-pt-2-functional-programming-a63aa53a41a4#.pjxzgxd72) and [Object Oriented Programming](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3#.ljqzwb1b5)._  
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 ### 12. What does “favor object composition over class inheritance” mean?  
 _Code reuse should be achieved by assembling smaller units of functionality into new objects (eg. by having one property objects and arranging them with Object.assign() or spreading) instead of inheriting from classes and creating object taxonomies. Otherwise a lot of unnecessary or unwanted behaviour might be inherited._  
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 13. What are two-way data binding and one-way data flow, and how are they different?  
