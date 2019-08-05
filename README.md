@@ -50,12 +50,15 @@ _insert answer here_
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 
 3. How does prototypal inheritance work, and how is it different from class inheritance?  
+
 _Class inheritance:_   
-_Instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6._
+- _Instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies.
+- _Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6._
 
 _Prototypal Inheritance:_  
 - _A prototype is a working object instance. Objects inherit directly from other objects. Instances may be composed from many different objects, allowing for easy selective inheritance._ 
 - _Instances are typically instantiated via factory functions (function that return an object), object literals (comma-separated list of name-value pairs wrapped in curly braces), `[Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)` or inheriting features directly from one object to another by copying the source objects properties (Concatenative inheritance) with [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (formely done eg. by jQueries $.extend())_  
+
 _In JavaScript, prototypal inheritance is simpler & more flexible than class inheritance._  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
 
