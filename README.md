@@ -49,15 +49,34 @@ _insert answer here_
 ## Javascript
 
 1. What is the event loop?    
+- _Short: Process responsible for moving events into the call stack to be executed._
+
 - _Call Stack: JavaScript has a single call stack (array-like data structure that can only add items to the back and only remove the last item) in which it keeps track of what function we’re currently executing and what function is to be executed after that. When a function is about to be executed it is added on the call stack. Then if that function calls another function — the other function will be on top of the first one in the call stack._ 
 - _Event Table & Event Queue: All async operations are added to the Event Table (data structure that knows what function should be triggered after what event). It’s sole purpose is to keep track of events and send them to the Event Queue. The Event Queue is a data structure similar to the stack — again you add items to the back but can only remove them from the front._
 - _The Event Loop: Constantly running process that checks if the call stack is empty. If it is empty it looks into the Event Queue. If there is something in the event queue that is waiting it is moved to the call stack. If not, then nothing happens._
-- _Short: Process responsible for moving events into the call stack to be executed._ 
 
 [Full article to answer question.](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
 
-2. What is a closure?  
-_insert answer here_   
+### 2. What is a closure?
+- _is a combination of a function bundled together (enclosed) with references to its surrounding state_
+- _or: a closure gives you access to an outer function’s scope from an inner function. This makes it possible for a function to have "private" variables._
+- _to use a closure, define a function inside another function and expose it. To expose a function, return it or pass it to another function._
+- _in JavaScript, closures are the primary mechanism used to enable data privacy_
+- _used for: object data privacy, in event handlers and callback functions_
+
+```javascript
+var add = (function () {
+  var counter = 0;
+  return function () {counter += 1; return counter}
+})();
+
+add();
+add();
+add();
+
+// the counter is now 3
+```
+
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 
 ### 3. How does prototypal inheritance work, and how is it different from class inheritance?  
@@ -102,6 +121,7 @@ _A function given the same input, will always return the same output and produce
 _Programming paradigma that:_  
 - _uses pure functions_
 - _avoid side-effects_
+- _use of closures_
 - _simple function composition (eg. f(g(x)))_  
 - _in React the principle is supported by HOCs and Rendering Props_
 
