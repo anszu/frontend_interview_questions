@@ -48,7 +48,7 @@ _insert answer here_
 
 ## Javascript
 
-1. What is the event loop?    
+### 1. What is the event loop?    
 - _Short: Process responsible for moving events into the call stack to be executed._
 
 - _Call Stack: JavaScript has a single call stack (array-like data structure that can only add items to the back and only remove the last item) in which it keeps track of what function we’re currently executing and what function is to be executed after that. When a function is about to be executed it is added on the call stack. Then if that function calls another function — the other function will be on top of the first one in the call stack._ 
@@ -87,7 +87,7 @@ _Class inheritance:_
 
 _Prototypal Inheritance:_  
 - _A prototype is a working object instance. Objects inherit directly from other objects. Instances may be composed from many different objects, allowing for easy selective inheritance._ 
-- _Instances are typically instantiated via factory functions (function that return an object), object literals (comma-separated list of name-value pairs wrapped in curly braces), `[Object.create()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create)` or inheriting features directly from one object to another by copying the source objects properties (Concatenative inheritance) with [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (formely done eg. by jQueries $.extend())_  
+- _Instances are typically instantiated via factory functions (function that return an object), object literals (comma-separated list of name-value pairs wrapped in curly braces), [`Object.create()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) or inheriting features directly from one object to another by copying the source objects properties (Concatenative inheritance) with [`Object.assign()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) (formely done eg. by jQueries $.extend())_  
 
 _In JavaScript, prototypal inheritance is simpler & more flexible than class inheritance._  
 
@@ -131,8 +131,18 @@ _Programming paradigma that:_
 _insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-10. What is a Promise?  
-_insert answer here_  
+### 10. What is a Promise?  
+- _is an object that may produce a single value some time in the future (resolved value, or a reason that it’s not resolved = error)_ 
+- _may be in one of 3 possible states: fulfilled, rejected, or pending_
+- _can be returned synchronously from an asynchronous function_
+- _to avoid callback and write asynchronous code like it would be synchronous_
+
+```javascript
+const wait = time => new Promise((resolve) => setTimeout(resolve, time));
+
+wait(3000).then(() => console.log('Hello!')); // 'Hello!'
+´´´
+
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
 ### 11. Can you name two programming paradigms important for JavaScript app developers?  
