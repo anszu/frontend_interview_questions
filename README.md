@@ -141,7 +141,7 @@ _insert answer here_
 const wait = time => new Promise((resolve) => setTimeout(resolve, time));
 
 wait(3000).then(() => console.log('Hello!')); // 'Hello!'
-´´´
+```
 
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
