@@ -52,7 +52,7 @@ _insert answer here_
 3. How does prototypal inheritance work, and how is it different from class inheritance?  
 
 _Class inheritance:_   
-- _Instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies.
+- _Instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies._
 - _Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6._
 
 _Prototypal Inheritance:_  
