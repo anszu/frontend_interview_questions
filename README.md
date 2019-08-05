@@ -5,15 +5,15 @@ Practical Javascript training tasks can be found [here](https://github.com/anszu
 
 ## General
 
-1. What is Big O notation?  
+### 1. What is Big O notation?  
 _A method to describe the performance or complexity of an algorithm._    
 [Full article to answer question.](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)
 
-2. What is the DOM?  
+### 2. What is the DOM?  
 _The Document Object Model is an object based hierarchical model of a pages HTML structure. The DOM is represented by a node tree that can be used by eg. Javascript programms for reading or modifications._     
 [Full article to answer question.](https://bitsofco.de/what-exactly-is-the-dom/)
 
-3. What are the pros and cons of monolithic vs microservice architectures?  
+### 3. What are the pros and cons of monolithic vs microservice architectures?  
 _Monolith = one unit of code with tight coupling between the components_      
 _Microservice = several independent components not relying on each other_    
 _Pro Monolith: easy to hook up components to cross-cutting concerns like logging or security featueres_      
@@ -23,7 +23,7 @@ _Con Mircoservice: possible code duplication, problem of how to implement shared
 _Result: in the long-run Microservices are usually the better choice._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-4. What is asynchronous programming, and why is it important in JavaScript?  
+### 4. What is asynchronous programming, and why is it important in JavaScript?  
 _An event loop is listening for operations, which when requested don't block the rest of the code. User interfaces are asynchronous by nature waiting for user inputs to fire an event handler._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
@@ -49,7 +49,7 @@ _insert answer here_
 _insert answer here_   
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36)
 
-3. How does prototypal inheritance work, and how is it different from class inheritance?  
+### 3. How does prototypal inheritance work, and how is it different from class inheritance?  
 
 _Class inheritance:_   
 - _Instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies._
@@ -74,12 +74,16 @@ _insert answer here_
 _insert answer here_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0)
 
-7. What ist a Pure Function?  
-_insert answer here_  
+### 7. What ist a Pure Function?  
+_A function given the same input, will always return the same output and produces no side effects_  
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)
 
-8. What is Functional Programming?  
-_insert answer here_  
+### 8. What is Functional Programming?  
+_Programming paradigma that:_  
+- _uses pure functions_
+- _avoid side-effects_
+- _simple function composition (eg. f(g(x)))_  
+- _in React the principle is supported by HOCs and Rendering Props_
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
 9. What are the pros and cons of functional programming vs object-oriented programming?  
@@ -91,11 +95,11 @@ _insert answer here_
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
 
 11. Can you name two programming paradigms important for JavaScript app developers?  
-_insert answer here_  
+_Functional Programming and Object Oriented Programming._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-12. What does “favor object composition over class inheritance” mean?  
-_insert answer here_  
+### 12. What does “favor object composition over class inheritance” mean?  
+_Code reuse should be achieved by assembling smaller units of functionality into new objects (eg. by having one property objects and arranging them with Object.assign() or spreading) instead of inheriting from classes and creating object taxonomies. Otherwise a lot of unnecessary or unwanted behaviour might be inherited._  
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 13. What are two-way data binding and one-way data flow, and how are they different?  
