@@ -49,8 +49,12 @@ _insert answer here_
 ## Javascript
 
 1. What is the event loop?  
-_insert answer here_   
-[Full article to answer question.](https://flaviocopes.com/javascript-event-loop/)
+_ - Call Stack: JavaScript has a single call stack (array-like data structure that can only add items to the back and only remove the last item) in which it keeps track of what function we’re currently executing and what function is to be executed after that. When a function is about to be executed it is added on the call stack. Then if that function calls another function — the other function will be on top of the first one in the call stack._ 
+_ - Event Table & Event Queue: All async operations are added to the Event Table (data structure that knows what function should be triggered after what event). It’s sole purpose is to keep track of events and send them to the Event Queue. The Event Queue is a data structure similar to the stack — again you add items to the back but can only remove them from the front._
+_ - The Event Loop: Constantly running process that checks if the call stack is empty. If it is empty it looks into the Event Queue. If there is something in the event queue that is waiting it is moved to the call stack. If not, then nothing happens.
+_ - Short: Process responsible for moving events into the call stack to be executed. 
+
+[Full article to answer question.](https://hackernoon.com/understanding-js-the-event-loop-959beae3ac40)
 
 2. What is a closure?  
 _insert answer here_   
@@ -70,17 +74,24 @@ _In JavaScript, prototypal inheritance is simpler & more flexible than class inh
 
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-s-the-difference-between-class-prototypal-inheritance-e4cd0a7562e9)
 
-4. How does this work?  
-_insert answer here_   
+### 4. How does this work?  
+_It's a special Javascript object, which value is based on how the code is being executed (execution context)._  
+- _By default, “this” refers to the global object which is global in case of NodeJS and window object in case of a browser._
+- _When a method is called as a property of object, then “this” refers to the parent object._
+- _When a function is called with the “new” operator then “this” refers to the newly created instance._
+- _When a function is called using the call and apply method then “this” refers to the value passed as first argument of the call or apply method._
+
 [Full article to answer question.](https://medium.com/quick-code/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8)
 
-5. What is event bubbling and how does it work?  
-_insert answer here_   
+### 5. What is event bubbling and how does it work?  
+_When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors._
+
 [Full article to answer question.](https://javascript.info/bubbling-and-capturing)
 
-6. What is Function Composition?  
-_insert answer here_  
-[Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-function-composition-20dfb109a1a0)
+### 6. What is Function Composition?  
+_A mechanism of combining multiple simple functions to build a more complicated one. The result of each function is passed to the next one (eg. add(2, mult(3, 5)))._
+
+[Full article to answer question.](https://www.codementor.io/michelre/use-function-composition-in-javascript-gkmxos5mj)
 
 ### 7. What ist a Pure Function?  
 _A function given the same input, will always return the same output and produces no side effects_  
