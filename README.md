@@ -147,8 +147,12 @@ _Programming paradigma that:_
 
 [Full article to answer question.](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
 
-9. What are the pros and cons of functional programming vs object-oriented programming?  
-_insert answer here_  
+### 9. What are the pros and cons of functional programming vs object-oriented programming?  
+- _OOP Pros: It’s easy to understand the basic concept of objects and easy to interpret the meaning of method calls_ 
+- _OOP Cons: OOP Typically depends on shared state, which may lead to undesirable behavior such as race conditions._
+- _FP Pros: programmers avoid any shared state or side-effects, simple functions that can be easily reused._
+- _FP Cons: reduced readability because the resulting code is often more abstractly specified, more terse, and less concrete, much steeper learning curve than OOP (concepts are using idioms and notations from lambda calculus, algebras, and category theory, requiring a prior knowledge in those domains)
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 ### 10. What is a Promise?  
@@ -175,8 +179,10 @@ _Code reuse should be achieved by assembling smaller units of functionality into
 
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-13. What are two-way data binding and one-way data flow, and how are they different?  
-_insert answer here_  
+### 13. What are two-way data binding and one-way data flow, and how are they different?  
+- _Two-way data binding (eg. used by Angular): means that UI fields are bound to model data dynamically such that when a UI field changes, the model data changes with it and vice-versa_ 
+- _One-way Data Flow (eg. used by React controlled forms): model is the single source of truth, only the model has the access to change the app’s state, data always flows in a single direction_
+
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
 ## React
