@@ -62,7 +62,7 @@ _REpresentational State Transfer, is an architectural style for providing standa
 - _the TLD Name Server is rooting the RNS to get the Authoritative Name Server for the second level domain_
 - _the Authoritative Name Server finally gets the IP address for the host and return is via the IRS to the browser of the user_
 
-[DNS Lookup](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/2560px-Example_of_an_iterative_DNS_resolver.svg.png)
+![DNS Lookup](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/2560px-Example_of_an_iterative_DNS_resolver.svg.png)
 
 [Full article to answer question.](https://royal.pingdom.com/a-visual-explanation-of-how-dns-lookups-work/)
 
