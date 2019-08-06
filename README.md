@@ -3,6 +3,11 @@
 Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the _Master the JavaScript Interview_ series and [_10 Interview Questions Every JavaScript Developer Should Know_](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95) by [Eric Elliot](https://medium.com/@_ericelliott) (who also provided the answers already).
 Practical Javascript training tasks can be found [here](https://github.com/anszu/javascript-training).
 
+[General](https://github.com/anszu/frontend_interview_questions/blob/master/README.md#general)  
+[Javascript](https://github.com/anszu/frontend_interview_questions/blob/master/README.md#javascript)  
+[React](https://github.com/anszu/frontend_interview_questions/blob/master/README.md#react)  
+[Others](https://github.com/anszu/frontend_interview_questions/blob/master/README.md#others)  
+
 ## General
 
 ### 1. What is Big O notation?  
