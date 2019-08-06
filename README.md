@@ -39,7 +39,7 @@ _An event loop is listening for operations, which when requested don't block the
 - _TCP: Transmission Control Protocol ensures reliability in a transmission, which ensures that the packets received are consistent, in order, complete, and smooth_
 - _HTTP: Hypertext Transfer Protocol built on top of TCP that uses a client-server communication model. HTTP clients and servers communicate through request-and-response messages (GET, POST, and HEAD)_
 - _[HTTPS](https://seopressor.com/blog/http-vs-https/): Hypertext Transfer Protocol Secure, using an SSL (secure sockets layer) certificate, which helps create a secure encrypted connection between the server and the browser_
-- _[HTTP/2](https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b):  HTTP speed improvements trough: Compression of request headers, Binary protocol, HTTP/2 Server Push, Request multiplexing over a single TCP connection (mutli requests in parallel, allows to load web files asynchronously), Request pipelining _
+- _[HTTP/2](https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b):  HTTP speed improvements trough: Compression of request headers, Binary protocol, HTTP/2 Server Push, Request multiplexing over a single TCP connection (mutli requests in parallel, allows to load web files asynchronously), Request pipelining_
 - _UDP: User Datagram Protocol, often used in video conferencing applications that need real-time performance. To achieve higher performance, the protocol allows individual packets to be dropped or to be received in a different order. Allows for better performance, but possibly worse quality, than TCP._
 - _RTC: Real-Time Transport Protocol (RTP), for delivering audio and video over IP networks. RTP is used in communication and entertainment systems that involve streaming media, typically runs over User Datagram Protocol_
 
@@ -57,7 +57,7 @@ _REpresentational State Transfer, is an architectural style for providing standa
 ### 7. How does DNS Lookup work?  
 - _process of rooting a domain name to the actual IP adress of a ressource_
 - _computer queries the Recursive Name Server (RNS) it is set up to use by the ISP_ 
-- _if the RNS doesn't know the IP address, it queries the IRS (Internet Root Servers) to get the name servers for the Top Level Domain (TLD) (eg. .com)
+- _if the RNS doesn't know the IP address, it queries the IRS (Internet Root Servers) to get the name servers for the Top Level Domain (TLD) (eg. .com)_
 - _the IRS is rooting the RNS to a TLD Name Server_
 - _the TLD Name Server is rooting the RNS to get the Authoritative Name Server for the second level domain_
 - _the Authoritative Name Server finally gets the IP address for the host and return is via the IRS to the browser of the user_
