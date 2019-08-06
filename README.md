@@ -1,6 +1,6 @@
 # Frontend Interview Questions
 
-Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the _Master the JavaScript Interview_ series and [_10 Interview Questions Every JavaScript Developer Should Know_](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95) by [Eric Elliot](https://medium.com/@_ericelliott) (who also provided a lot of the answers already).
+Common question for Frontend Interviews, most by Boris Cherny found [here](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) and the _Master the JavaScript Interview_ series and [_10 Interview Questions Every JavaScript Developer Should Know_](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95) by [Eric Elliot](https://medium.com/@_ericelliott) (who also provided the answers already).
 Practical Javascript training tasks can be found [here](https://github.com/anszu/javascript-training).
 
 ## General
@@ -151,7 +151,7 @@ _Programming paradigma that:_
 - _OOP Pros: It’s easy to understand the basic concept of objects and easy to interpret the meaning of method calls_ 
 - _OOP Cons: OOP Typically depends on shared state, which may lead to undesirable behavior such as race conditions._
 - _FP Pros: programmers avoid any shared state or side-effects, simple functions that can be easily reused._
-- _FP Cons: reduced readability because the resulting code is often more abstractly specified, more terse, and less concrete, much steeper learning curve than OOP (concepts are using idioms and notations from lambda calculus, algebras, and category theory, requiring a prior knowledge in those domains)
+- _FP Cons: reduced readability because the resulting code is often more abstractly specified, more terse, and less concrete, much steeper learning curve than OOP (concepts are using idioms and notations from lambda calculus, algebras, and category theory, requiring a prior knowledge in those domains)_
 
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
