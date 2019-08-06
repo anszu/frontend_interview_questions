@@ -34,12 +34,24 @@ _An event loop is listening for operations, which when requested don't block the
 
 [Full article to answer question.](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
 
-5. Describe a few ways to communicate between a server and a client. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC, DNS, etc.)  
-_insert answer here_  
+### 5. Describe how a few network protocols work at a high level (IP, TCP, HTTP/S/2, UDP, RTC etc.)  
+- _IP: Internet protocol, describes how data packets move through a network_  
+- _TCP: Transmission Control Protocol ensures reliability in a transmission, which ensures that the packets received are consistent, in order, complete, and smooth_
+- _HTTP: Hypertext Transfer Protocol built on top of TCP that uses a client-server communication model. HTTP clients and servers communicate through request-and-response messages (GET, POST, and HEAD)_
+- _[HTTPS](https://seopressor.com/blog/http-vs-https/): Hypertext Transfer Protocol Secure, using an SSL (secure sockets layer) certificate, which helps create a secure encrypted connection between the server and the browser_
+- _[HTTP/2](https://medium.com/@factoryhr/http-2-the-difference-between-http-1-1-benefits-and-how-to-use-it-38094fa0e95b):  HTTP speed improvements trough: Compression of request headers, Binary protocol, HTTP/2 Server Push, Request multiplexing over a single TCP connection (mutli requests in parallel, allows to load web files asynchronously), Request pipelining _
+- _UDP: User Datagram Protocol, often used in video conferencing applications that need real-time performance. To achieve higher performance, the protocol allows individual packets to be dropped or to be received in a different order. Allows for better performance, but possibly worse quality, than TCP._
+- _RTC: Real-Time Transport Protocol (RTP), for delivering audio and video over IP networks. RTP is used in communication and entertainment systems that involve streaming media, typically runs over User Datagram Protocol_
+
 [Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
 
-6. What is REST, and why do people use it?  
-_insert answer here_  
+### 6. What is REST, and why do people use it?  
+_REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, it includes:_
+- _Separation of client and server (code changes don't affect each other)_
+- _Statelessness (server does not need to know anything about what state the client is in and vice versa)_
+- _REST systems interact through standard operations on resources_
+- _Requests consists of: an HTTP verb (GET, POST, PUT, DELETE), headers and access parameters (client sends the type of content that it is able to receive from the server eg. text, image, audio), Paths to the ressource (fashionboutique.com/customers/223/orders/12)
+
 [Full article to answer question.](https://www.codecademy.com/articles/what-is-rest)
 
 7. How does DNS Lookup work?  
