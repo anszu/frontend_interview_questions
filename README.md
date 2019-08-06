@@ -45,17 +45,25 @@ _An event loop is listening for operations, which when requested don't block the
 
 [Full article to answer question.](https://www.lifewire.com/definition-of-protocol-network-817949)
 
-### 6. What is REST, and why do people use it?  
+### 6. What is REST?  
 _REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, it includes:_
 - _Separation of client and server (code changes don't affect each other)_
 - _Statelessness (server does not need to know anything about what state the client is in and vice versa)_
 - _REST systems interact through standard operations on resources_
-- _Requests consists of: an HTTP verb (GET, POST, PUT, DELETE), headers and access parameters (client sends the type of content that it is able to receive from the server eg. text, image, audio), Paths to the ressource (fashionboutique.com/customers/223/orders/12)
+- _Requests consists of: an HTTP verb (GET, POST, PUT, DELETE), headers and access parameters (client sends the type of content that it is able to receive from the server eg. text, image, audio), Paths to the ressource_ (fashionboutique.com/customers/223/orders/12)
 
 [Full article to answer question.](https://www.codecademy.com/articles/what-is-rest)
 
-7. How does DNS Lookup work?  
-_insert answer here_  
+### 7. How does DNS Lookup work?  
+- _process of rooting a domain name to the actual IP adress of a ressource_
+- _computer queries the Recursive Name Server (RNS) it is set up to use by the ISP_ 
+- _if the RNS doesn't know the IP address, it queries the IRS (Internet Root Servers) to get the name servers for the Top Level Domain (TLD) (eg. .com)
+- _the IRS is rooting the RNS to a TLD Name Server_
+- _the TLD Name Server is rooting the RNS to get the Authoritative Name Server for the second level domain_
+- _the Authoritative Name Server finally gets the IP address for the host and return is via the IRS to the browser of the user_
+
+[DNS Lookup](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Example_of_an_iterative_DNS_resolver.svg/2560px-Example_of_an_iterative_DNS_resolver.svg.png)
+
 [Full article to answer question.](https://royal.pingdom.com/a-visual-explanation-of-how-dns-lookups-work/)
 
 ## Javascript
